@@ -1,0 +1,45 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# FastF1 and generated data caches
+cache/
+data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated datasets and collection logs
+# Runtime logs can contain local paths or request details; do not commit them.
+*.log
+
+# Generated model artifacts and reports
+models/*
+!models/*.md
+
+# Local prediction and sample outputs
+sample_*.txt
+prediction_*.csv
+
+# Operating-system and editor files
+.DS_Store
+.idea/
